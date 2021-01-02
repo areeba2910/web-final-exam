@@ -8,32 +8,272 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" >
+       
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item2">
+            <a class="nav-link active px-4" href="#">Home</a>
+          </li> 
+            <li class="nav-item">
+              <a class="nav-link px-5" href="#">Typography</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link px-5" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-5" href="#">My Account</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+             
+        </ul>
       </nav>
+      <section id="services">
+        <div class="container">
+          
+            
+              
+              <div class="col-md-6">
+               
+                
+                  <h4 class="main"> <br>
+                    Seller
+
+                  </h4>
+                  
+              
+                </div>
+             
+        </div>
+      </section>
+      <section id="categories">
+        <div class="container">
+          <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top" >
+       
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item1">
+                <a class="nav-link active px-4" href="#">T-shirts</a>
+              </li> 
+                <li class="nav-item">
+                  <a class="nav-link px-5" href="#">Hoodies</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link px-5" href="#">Posters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-5" href="#">Albums</a>
+                  </li>
+                 
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                      <img class="pic-1" src="https://www.buyon.pk/image/cache/data/members/taimoormalik/0000000ooo-600x600.jpeg"></a>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="far fa-star"></li>
+                    </ul>
+
+                    <h3 class="title"><a href="#">t-shirt</a></h3>
+                    <div class="price">$64.99</div>
+                    <ul class="product-links">
+                        <li><a href="#">Add to Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="data:image/jpeg;base64,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">
+                    </a>
+                    <a href="#" class="product-full-view"><i class="fa fa-search"></i></a>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="far fa-star"></li>
+                        <li class="far fa-star"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">t-shirt</a></h3>
+                    <div class="price">$59.99</div>
+                    <ul class="product-links">
+                        <li><a href="#">Add to Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTO4JqaZTvbLSMpeEaHMe6Ha8p0lB7ecVu_-co677BVWbaiqOxgmzv4gDA70kk3uiGFZ5O05izhSbgIrL6h2337CTIjMF8WdbI4g&usqp=CAU&ec=45750088">
+                    </a>
+                    <a href="#" class="product-full-view"><i class="fa fa-search"></i></a>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="far fa-star"></li>
+                        <li class="far fa-star"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">t-shirt</a></h3>
+                    <div class="price">$59.99</div>
+                    <ul class="product-links">
+                        <li><a href="#">Add to Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="https://www.thewarehouse.pk/image/cache/catalog/gaming/army/all%20over/pak%20army%201947%20all%20over%20printed%20t-shirt%20(1)-600x600.JPG">
+                    </a>
+                    <a href="#" class="product-full-view"><i class="fa fa-search"></i></a>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="far fa-star"></li>
+                        <li class="far fa-star"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">t-shirt</a></h3>
+                    <div class="price">$59.99</div>
+                    <ul class="product-links">
+                        <li><a href="#">Add to Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</br>
+
+<div class="row">
+    <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+            <div class="product-image">
+                <a href="#" class="image"><img class="pic-1" src="https://d11zer3aoz69xt.cloudfront.net/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/c/-/c-tees_plain_black_t-shirt_for_women_ckt10181__1.jpg"></a>
+            </div>
+            <div class="product-content">
+                <ul class="rating">
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="far fa-star"></li>
+                </ul>
+                <h3 class="title"><a href="#">t-shirt</a></h3>
+                <div class="price">$64.99</div>
+                <ul class="product-links">
+                    <li><a href="#">Add to Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="https://plussize.pk/wp-content/uploads/2019/02/Identic-mint-Basic-Jersey-Polo-Shirt.jpg">
+                </a>
+                <a href="#" class="product-full-view"><i class="fa fa-search"></i></a>
+            </div>
+            <div class="product-content">
+                <ul class="rating">
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="far fa-star"></li>
+                    <li class="far fa-star"></li>
+                </ul>
+                <h3 class="title"><a href="#">t-shirt</a></h3>
+                <div class="price">$59.99</div>
+                <ul class="product-links">
+                    <li><a href="#">Add to Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="https://adidas-cdn.revton.com/media/catalog/product/cache/0/image/9df78eab33525d08d6e5fb8d27136e95/F/R/FR1156-10.jpg">
+                </a>
+                <a href="#" class="product-full-view"><i class="fa fa-search"></i></a>
+            </div>
+            <div class="product-content">
+                <ul class="rating">
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="far fa-star"></li>
+                    <li class="far fa-star"></li>
+                </ul>
+                <h3 class="title"><a href="#">t-shirt</a></h3>
+                <div class="price">$59.99</div>
+                <ul class="product-links">
+                    <li><a href="#">Add to Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+        <div class="product-grid">
+            <div class="product-image">
+                <a href="#" class="image">
+                    <img class="pic-1" src="https://m.media-amazon.com/images/I/71PX0QHKNDL._SX466_.jpg">
+                </a>
+                <a href="#" class="product-full-view"><i class="fa fa-search"></i></a>
+            </div>
+            <div class="product-content">
+                <ul class="rating">
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="fas fa-star"></li>
+                    <li class="far fa-star"></li>
+                    <li class="far fa-star"></li>
+                </ul>
+                <h3 class="title"><a href="#">t-shirt</a></h3>
+                <div class="price">$59.99</div>
+                <ul class="product-links">
+                    <li><a href="#">Add to Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
