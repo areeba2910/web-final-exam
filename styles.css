@@ -61,7 +61,7 @@
   }
   
   a {
-    color: tomato;
+    color: rgb(252, 255, 71);
     text-decoration: none;
   }
   
@@ -122,10 +122,10 @@
   
   /* Hover state of the stars */
   .rating-stars ul > li.star.hover > i.fa {
-    color: #ffcc36;
+    color: #fff12c;
   }
   
   /* Selected state of the stars */
   .rating-stars ul > li.star.selected > i.fa {
-    color: #ff912c;
+    color: #fff12c;
   }
